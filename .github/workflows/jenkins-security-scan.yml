@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - codeql-2.16.4
   pull_request:
     types: [ opened, synchronize, reopened ]
   workflow_dispatch:
